@@ -8,9 +8,8 @@ for($i = 1; $i <= 100; $i++){
     }elseif($i % 3 == 0){
         echo "Il numero $i è PHP\n";
     }else{
-        echo "Non multiplo\n";
+        echo "$i\n";
     };
 };
-
 
 ?>
